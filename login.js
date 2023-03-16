@@ -5,8 +5,9 @@ form.addEventListener('submit', function(event) {
     const username = this.username.value;
     const password = this.password.value;
 
-    if (username === 'username' && password === 'password') {
-        alert('Login successful!');
+    if (username === '2052CSE00838' && password === '123456') {
+        // alert('Login successful!');
+        window.location.href = 'index.html';
     } else {
         alert('Invalid username or password.');
     }
